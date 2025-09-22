@@ -1,9 +1,11 @@
-import Image from "next/image";
+import { Hero } from "@/components/Hero";
+import { GroupInfo } from "@/components/GroupInfo";
 
 export default function Home() {
   return (
-    <div>
-      <h1 className="text-lg">Hell</h1>
-    </div>
+    <main className="min-h-screen">
+      <Hero />
+      <GroupInfo />
+    </main>
   );
 }
