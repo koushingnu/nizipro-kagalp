@@ -1,11 +1,10 @@
-import { Hero } from "@/components/Hero";
-import { GroupInfo } from "@/components/GroupInfo";
+import { About } from "@/components/about";
+
 
 export default function Home() {
   return (
     <main className="min-h-screen">
-      <Hero />
-      <GroupInfo />
+      <About />
     </main>
   );
 }
