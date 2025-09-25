@@ -7,10 +7,10 @@ export const Debut = () => {
 
             <div className="pt-8"></div>
 
-            <div className= "flex justify-center w-full ">
-                <p className= "text-black text-4xl text-center py-4 font-extrabold">
+            <div className= "flex justify-center w-full max-w-3xl mx-auto">
+                <p className= "text-black text-3xl text-center py-4 font-extrabold">
                     <span className="text-red-500">8/12 豊洲PIT</span>にてステージデビュー<span className="text-red-500">‼</span><br />
-                    さらに！ビクターエンタテインメントよりメジャーデビュー<span className="text-red-500">‼</span>
+                    さらに！ビクターエンタテインメントより<br />メジャーデビュー<span className="text-red-500">‼</span>
                 </p>
             </div>
 

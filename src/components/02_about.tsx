@@ -7,8 +7,8 @@ export const About = () => {
 
             <div className="pt-8"></div>
 
-            <div className= "flex justify-center w-full ">
-                <p className= "text-black text-lg text-left py-4 font-extrabold">
+            <div className= "flex justify-center w-full">
+                <p className= "text-black text-lg text-left py-4 font-extrabold max-w-3xl mx-auto">
                     「NiziIROぱれっと」が新メンバー募集のために全国オーディションを開催‼<br/>
                     NiziIROぱれっと(通称：にじぱれ)は2022年8月12日ステージデビュー<br/>
                     2025年にビクターエンタテインメントよりメジャーデビューが決定し、2024年3月にはKANSAI COLLECTION 2024S/S、9月には代々木野外音楽堂でワンマンを完遂し、<br/>

@@ -18,7 +18,7 @@ export const Requirement = () => {
 
                     <p className="text-center font-extrabold text-xl">応募資格：13歳～27歳までの男性</p>
 
-                    <p className="pt-6 leading-relaxed font-medium text-left">
+                    <p className="pt-6 leading-relaxed font-medium text-left text-lg">
                     ※未成年者の方は保護者の同意が必要となります。<br /><br />
                     ※プロダクションに所属していない方。<br />（事務所に所属している方でも事前に事務所の同意を得ている場合は可）<br /><br />
                     ※2025年6月頃から活動準備を行える方。<br /><br />
@@ -43,7 +43,7 @@ export const Requirement = () => {
             </div>
 
             <div className="w-full justify-center pt-8 pb-12">
-                <div className="bg-white border-2 border-black p-10 rounded-lg font-xl leadind-loose font-medium text-left max-w-3xl mx-auto">
+                <div className="bg-white border-2 border-black p-10 rounded-lg font-xl leadind-loose font-medium text-left text-lg max-w-3xl mx-auto">
                     応募期間：2025年4月4日〜2025年4月30日まで<br /><br />
 
                         １次審査：書類審査<br />
