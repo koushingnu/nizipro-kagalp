@@ -68,8 +68,7 @@ export const Requirement = () => {
 
             <div className= "pt-12 pb-10 flex justify-center">
                 <a href ="https://form.run/@nizipaleaudition2025"
-                className="bg-gradient-to-r from-sky-300 to-green-300 text-white font-black text-3xl px-6 py-5 rounded-full text-center w-fit hover:opacity-80 transition animate-pulse"
-                style={{ animation: "breathe 1s ease-in-out infinite" }}>
+                className="bg-gradient-to-r from-sky-300 to-green-300 shadow-2xl shadow-sky-500/50 text-white font-black text-3xl px-6 py-5 rounded-full text-center w-fit hover:scale-110 transform transition duration-200 hover:opacity-80 transition">
                     ENTRY NOW
                 </a>
             </div>
