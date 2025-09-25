@@ -21,7 +21,7 @@ export const Message = () => {
 
 
             <div className="grid grid-cols-3 gap-12 w-11/12 mx-auto pt-10">
-                <div className="flex flex-col items-center">
+                <div className="flex flex-col text-loose items-center">
                     <img src= "/虹プロ画像/虹プロ画像/メッセージ/S__16629823.jpg" className="w-full h-auto rounded-xl hover:scale-110 transform transition duration-200" />
                     <p className="text-yellow-300 font-black text-3xl pt-6">
                         あきと

@@ -20,7 +20,7 @@ export const Requirement = () => {
 
                     <p className="pt-6 leading-relaxed font-medium">
                     ※未成年者の方は保護者の同意が必要となります。<br />
-                    ※プロダクションに所属していない方。（もしくは事務所に所属している方でも事前に事務所の同意を得ている場合は可）<br />
+                    ※プロダクションに所属していない方。<br />（事務所に所属している方でも事前に事務所の同意を得ている場合は可）<br />
                     ※2025年6月頃から活動準備を行える方。<br />
                     </p>
 
@@ -66,7 +66,7 @@ export const Requirement = () => {
                 </div>
             </div>
 
-            <div className= "pt-12 flex justify-center">
+            <div className= "pt-6 pb-12 flex justify-center">
                 <a href ="https://form.run/@nizipaleaudition2025"
                    className="bg-gradient-to-r from-sky-300 to-green-300 text-white font-black text-3xl px-20 py-5 rounded-full text-center hover:scale-110 transform transition duration-200 hover:opacity-80 transition">
 

@@ -1,3 +1,5 @@
+import { FaYoutube, FaInstagram, FaTwitter} from "react-icons/fa";
+
 export const Last = () => {
     return (
         <section className="relative w-full bg-white">
@@ -16,6 +18,32 @@ export const Last = () => {
 
             <div className="pt-8"></div>
 
+
+            <div className="flex w-full space-x-6 justify-center pt-6 pb-14">  
+                <a 
+                    href="https://www.youtube.com/@niziiro7203"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-red-600 hover:text-red-800 text-4xl transition-transform transform hover:scale-110">
+                    <FaYoutube />
+                </a>
+
+                <a 
+                    href="https://x.com/Nizi_Pale_info"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-black-600 hover:text-blck-800 text-4xl transition-transform transform hover:scale-110">
+                    <FaTwitter />
+                </a>
+
+                <a 
+                    href="https://www.instagram.com/nizi_pale_info/?hl=en"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-black-600 hover:text-blck-800 text-4xl transition-transform transform hover:scale-110">
+                    <FaInstagram />
+                </a>
+            </div>
         </section>
     )
 }
