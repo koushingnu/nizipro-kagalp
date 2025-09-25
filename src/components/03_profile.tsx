@@ -24,8 +24,8 @@ export const Profile = () => {
                   className= "flex justify-center w-100 h-auto " />
             </div>
 
-            <div className="relative w-full">
-                <p className="text-black text-lg text-center py-4 font-extrabold leading-loose">
+            <div className="relative w-full flex justify-center">
+                <p className="text-black text-lg text-left py-4 mx-auto font-extrabold leading-loose">
                     2022年8月品川インターシティホールにてステージデビュー<br />
                     2024年2月1st ワンマンLIVE@Spotify O-WESTにて実施<br />
                     2024年3月KANSAI COLLECTION 2024S/Sに出演<br />

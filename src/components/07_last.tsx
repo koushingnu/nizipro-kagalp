@@ -8,9 +8,9 @@ export const Last = () => {
             </div>
 
             <div className="flex w-full pt-12 justify-center">
-                <div className="border-2 border-black p-10 text-xl text-medium justify-center">
-                    ・応募者の個人情報は事務局で厳密に管理の上、本オーディションに関わる者以外への開示は一切致しません。<br />
-                    ・本オーディションに伴う会場への移動などに伴う交通費・宿泊費などは負担致しかねますので、あらかじめご了承ください。<br />
+                <div className="bg-white border-2 border-black p-10 rounded-lg font-xl leadind-loose font-medium text-left max-w-3xl mx-auto">
+                    ・応募者の個人情報は事務局で厳密に管理の上、本オーディションに関わる者以外への開示は一切致しません。<br /><br />
+                    ・本オーディションに伴う会場への移動などに伴う交通費・宿泊費などは負担致しかねますので、あらかじめご了承ください。<br /><br />
                     ・審査時の内容などをSNS等で外部に公表することを一切禁じます。<br /><br />
                         <p className="text-center">主催：（株）palette promotion</p>
                 </div>

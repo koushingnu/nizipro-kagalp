@@ -8,7 +8,7 @@ export const About = () => {
             <div className="pt-8"></div>
 
             <div className= "flex justify-center w-full ">
-                <p className= "text-black text-lg text-center py-4 font-extrabold">
+                <p className= "text-black text-lg text-left py-4 font-extrabold">
                     「NiziIROぱれっと」が新メンバー募集のために全国オーディションを開催‼<br/>
                     NiziIROぱれっと(通称：にじぱれ)は2022年8月12日ステージデビュー<br/>
                     2025年にビクターエンタテインメントよりメジャーデビューが決定し、2024年3月にはKANSAI COLLECTION 2024S/S、9月には代々木野外音楽堂でワンマンを完遂し、<br/>
@@ -20,11 +20,9 @@ export const About = () => {
 
             <div className= "pt-12 flex justify-center">
                 <a href ="https://form.run/@nizipaleaudition2025"
-                className="bg-gradient-to-r from-sky-300 to-green-300 text-white font-black text-3xl px-20 py-5 rounded-full text-center hover:scale-110 transform transition duration-200 hover:opacity-80 transition">
-
-                    <button className= " px-20 py-5 text-white font-black text-3xl ">
-                        今すぐエントリー
-                    </button>
+                className="bg-gradient-to-r from-sky-300 to-green-300 text-white font-black text-3xl px-6 py-5 rounded-full text-center w-fit hover:scale-110 transform transition duration-200 hover:opacity-80 transition"
+                style={{ animation: "breathe 1s ease-in-out infinite" }}>
+                    ENTRY NOW
                 </a>
             </div>
 
