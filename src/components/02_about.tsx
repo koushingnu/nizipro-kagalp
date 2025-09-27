@@ -7,15 +7,33 @@ export const About = () => {
 
             <div className="pt-8"></div>
 
-            <div className= "flex justify-center w-full">
-                <p className= "text-black text-lg text-left py-4 font-extrabold max-w-3xl mx-auto">
-                    「NiziIROぱれっと」が新メンバー募集のために全国オーディションを開催‼<br/>
-                    NiziIROぱれっと(通称：にじぱれ)は2022年8月12日ステージデビュー<br/>
-                    2025年にビクターエンタテインメントよりメジャーデビューが決定し、2024年3月にはKANSAI COLLECTION 2024S/S、9月には代々木野外音楽堂でワンマンを完遂し、<br/>
-                    2025年8月には都内最大級のLIVEハウス豊洲PITでのワンマンライブも開催！<br/><br/>
-                    NiziIROぱれっとの新メンバーとして一緒に頑張ってくれる仲間を全国から募集します！<br/><br/>
-                    ステージ経験は問わず、アイドル未経験の方や、もう一度アイドルとして輝きたい方も、<br/>この機会にぜひご応募お待ちしております！<br/>
-                </p>
+            <div className="flex justify-center w-full">
+                <div className="max-w-3xl w-full px-4">
+                    <p className="text-black text-lg text-left py-4 font-extrabold">
+                    今を翔けるpalette promotionとビクターエンタテインメントの全国共同オーディションを開催!!
+                    </p>
+
+                    <h2 className="text-left text-xl text-black leading-tight py-3 font-extrabold">
+                    {"[palette promotion]"}
+                    </h2>
+
+                    <p className="text-black text-lg text-left py-4 font-extrabold">
+                    メジャーデビューシングルオリコン1位獲得！<br />
+                    KANSAI COLLECTION出演や豊洲PITでのワンマンライブを完遂など今もっとも勢いのあるメンズアイドルグループNiziIROぱれっとが所属する。
+                    </p>
+
+                    <h2 className="text-left text-xl text-black leading-tight py-3 font-extrabold">
+                    {"[ビクターエンタテインメント]"}
+                    </h2>
+
+                    <p className="text-black text-lg text-left py-4 font-extrabold">
+                    再来年100周年を迎える国内、国外のアーティストが抱える日本を代表するメジャーレコードレーベルの一つ。<br /><br />
+                    <span className="text-black text-2xl font-black underline block mb-4">palette promotionの仲間として新しい時代を共に駆け抜けるスターを全国から募集します！</span><br />
+                    ステージ経験は問わず、アイドル未経験の方もう一度アイドルとして輝きたい方も、この機会にぜひご応募お待ちしております！<br /><br />
+                    • 名称：NEXT IDOL PROJECT 2025<br />
+                    • 主催：palette promotion × ビクターエンタテインメント
+                    </p>
+                </div>
             </div>
 
             <div className= "pt-12 flex justify-center">
