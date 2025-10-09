@@ -9,30 +9,14 @@ export const About = () => {
 
             <div className="flex justify-center w-full">
                 <div className="max-w-3xl w-full px-4">
-                    <p className="text-black text-lg text-left py-4 font-extrabold">
-                    今を翔けるpalette promotionとビクターエンタテインメントの全国共同オーディションを開催!!
-                    </p>
+                    <p className="text-black text-2xl text-center py-4 font-extrabold">
+                    次世代の王道メンズアイドル<br />
+                    NiziIROぱれっと(にじいろぱれっと)<br /><br />
 
-                    <h2 className="text-left text-xl text-black leading-tight py-3 font-extrabold">
-                    {"[palette promotion]"}
-                    </h2>
-
-                    <p className="text-black text-lg text-left py-4 font-extrabold">
-                    メジャーデビューシングルオリコン1位獲得！<br />
-                    KANSAI COLLECTION出演や豊洲PITでのワンマンライブを完遂など今もっとも勢いのあるメンズアイドルグループNiziIROぱれっとが所属する。
-                    </p>
-
-                    <h2 className="text-left text-xl text-black leading-tight py-3 font-extrabold">
-                    {"[ビクターエンタテインメント]"}
-                    </h2>
-
-                    <p className="text-black text-lg text-left py-4 font-extrabold">
-                    再来年100周年を迎える国内、国外のアーティストが抱える日本を代表するメジャーレコードレーベルの一つ。<br /><br />
-                    <span className="text-black text-2xl font-black underline block mb-4">palette promotionの仲間として新しい時代を共に駆け抜けるスターを全国から募集します！</span><br />
-                    ステージ経験は問わず、アイドル未経験の方もう一度アイドルとして輝きたい方も、この機会にぜひご応募お待ちしております！<br /><br />
-                    • 名称：NEXT IDOL PROJECT 2025<br />
-                    • 主催：palette promotion × ビクターエンタテインメント
-                    </p>
+                    個性豊かに咲く花のように、<br />
+                    あなたと架ける虹のように、<br />
+                    みんなを笑顔にできますように。<br />
+                    </p>                
                 </div>
             </div>
 

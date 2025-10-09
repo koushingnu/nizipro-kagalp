@@ -14,7 +14,7 @@ export const Requirement = () => {
             </div>
 
             <div className= "flex justify-center w-full pt-8">
-                <div className="bg-white border-2 border-black p-10 rounded-lg font-xl leading-loose max-w-3xl w-full mx-auto">
+                <div className="bg-white border-2 border-black p-10 rounded-lg leading-loose max-w-3xl w-full mx-auto">
 
                     <p className="text-center font-extrabold text-xl">応募資格：13歳～29歳までの男性</p>
 
@@ -52,7 +52,7 @@ export const Requirement = () => {
             </div>
 
             <div className="w-full justify-center pt-8 pb-12">
-                <div className="bg-white border-2 border-black p-10 rounded-lg font-xl leadind-loose font-medium text-left text-lg max-w-3xl mx-auto">
+                <div className="bg-white border-2 border-black p-10 rounded-lg font-xl leading-loose font-medium text-left text-lg max-w-3xl mx-auto">
                     ■応募方法<br/>
                     WEBエントリー<br/><br/>
 
