@@ -13,7 +13,6 @@ export default function Home() {
       <Top />
       <About />
       <Profile />
-      <Debut />
       <Message />
       <Requirement />
       <Last />

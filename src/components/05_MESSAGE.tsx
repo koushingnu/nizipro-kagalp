@@ -10,17 +10,17 @@ export const Message = () => {
     return (
         <section className="relative w-full bg-white">
             <div>
-                <h1 className= "text-blue-300 text-6xl font-black flex justify-center pt-10">MESSAGE</h1>
+                <h1 className= "font-mono text-blue-300 text-5xl lg:text-6xl font-black flex justify-center pt-10">MESSAGE</h1>
             </div>
 
             <div className="pt-1"></div>
 
             <div className="relative w-full justify-center">
-                <p className="text-black font-black flex justify-center text-3xl">メンバーからのメッセージ</p>
+                <p className="text-black font-black flex justify-center text-lg">メンバーからのメッセージ</p>
             </div>
 
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12 w-11/12 mx-auto pt-10 px-35">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12 w-11/12 mx-auto pt-10 lg:px-35">
                 <div className="flex flex-col text-loose items-center">
                     <img src= "/虹プロ画像/虹プロ画像/メッセージ/S__16629823.jpg" className="w-full h-auto rounded-xl " />
                     <p className="text-yellow-300 font-black text-4xl pt-6 drop-shadow-lg">
@@ -28,7 +28,7 @@ export const Message = () => {
                     </p>
                         <p className="font-black text-lg pt-6 text-left">
                             イエロー担当のあきとです！<br />
-                            僕たちと一緒に夢を追いかける仲間を募集しています！ 音楽で人を笑顔に！アイドルは人を幸せにできる素敵な職業です！ 僕たちと一緒に夢を叶えませんか？ palette promotionは一人一人に寄り添い、それぞれに合ったサポートをしています。入れ替わりが激しいこの業界で3年間も活動できているのは、メンバー含め、沢山の方々が、本気で向き合ってくれているお陰です。<br />
+                            僕たちと一緒に夢を追いかける仲間を募集しています！ 音楽で人を笑顔に！アイドルは人を幸せにできる素敵な職業です！ 僕たちと一緒に夢を叶えませんか？<br/>palette promotionは一人一人に寄り添い、それぞれに合ったサポートをしています。入れ替わりが激しいこの業界で3年間も活動できているのは、メンバー含め、沢山の方々が、本気で向き合ってくれているお陰です。<br />
                             経験、未経験は問いません！アイドルという活動に夢を抱ける人を募集しています！一緒に夢を目標として叶えましょう！
                         </p>
                 </div>
@@ -40,7 +40,7 @@ export const Message = () => {
                     </p>
                         <p className="font-black pt-6 text-left text-lg">
                             みどり担当のけんごです！<br />
-                            NiziIROぱれっとに入って色々な夢や目標一緒に叶えよう！ アイドルになりたい理由は人それぞれ、どんな理由でもNiziIROぱれっとに入りたい気持ちがあれば僕らはこのグループで君のことを待っています！ 経験者の方はもちろん、未経験で自信がないなって人もいると思いますが、みんな最初は何事も0からのスタートです！<br /><br />
+                            NiziIROぱれっとに入って色々な夢や目標一緒に叶えよう！<br />アイドルになりたい理由は人それぞれ、どんな理由でもNiziIROぱれっとに入りたい気持ちがあれば僕らはこのグループで君のことを待っています！ 経験者の方はもちろん、未経験で自信がないなって人もいると思いますが、みんな最初は何事も0からのスタートです！<br /><br />
 
                             僕らと一緒に一歩一歩前に進んで、共に成長して、みんなの描く理想のアイドルに
                             一緒になりましょう！！
@@ -112,6 +112,24 @@ export const Message = () => {
                     delay: 2500,     
                     disableOnInteraction: false, 
                     }}
+                    centeredSlides={true}
+                    breakpoints={{
+                    // 画面幅 >= 640px（スマホ縦）
+                    0: {
+                    slidesPerView: 1.3, 
+                    spaceBetween: 10,
+                    },
+                    // 画面幅 >= 768px（タブレット）
+                    640: {
+                    slidesPerView: 2,
+                    spaceBetween: 20,
+                    },
+                    // 画面幅 >= 1024px（PC）
+                    768: {
+                    slidesPerView: 3,
+                    spaceBetween: 0,
+                    },
+                }}
 >
                     <SwiperSlide>
                         <div className="w-full aspect-video">

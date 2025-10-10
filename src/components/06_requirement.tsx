@@ -1,22 +1,22 @@
 export const Requirement = () => {
     return (
-        <section className="relative w-full bg-gray-200">
+        <section className="relative w-full bg-gray-200 overflow-x-hidden">
             <div>
-                <h1 className= "text-blue-300 text-6xl font-black flex justify-center pt-10">REQUIREMENT</h1>
+                <h1 className= "font-mono text-blue-300 text-5xl lg:text-6xl font-black flex justify-center pt-10">REQUIREMENT</h1>
             </div>
 
             <div className="pt-2"></div>
 
             <div className="w-full flex justify-center">
-                <h2 className="text-black font-black flex justify-center text-3xl drop-shadow-lg">
+                <h2 className="font-noto text-black font-black flex justify-center text-3xl drop-shadow-lg">
                     応募資格
                 </h2>
             </div>
 
             <div className= "flex justify-center w-full pt-8">
-                <div className="bg-white border-2 border-black p-10 rounded-lg leading-loose max-w-3xl w-full mx-auto">
+                <div className="bg-white border-2 border-black rounded-lg p-9 leading-loose max-w-[90%] lg:max-w-3xl w-full mx-auto">
 
-                    <p className="text-center font-extrabold text-xl">応募資格：13歳～29歳までの男性</p>
+                    <p className="text-center font-extrabold text-lg lg:text-2xl">応募資格：13歳～29歳までの男性</p>
 
                     <p className="pt-6 leading-relaxed font-medium text-left text-lg">
                     ※未成年者の方は保護者の同意が必要となります。<br /><br />
@@ -38,7 +38,7 @@ export const Requirement = () => {
             </div>
             
             <div className="w-full flex justify-center">
-                <h2 className="text-blue-300 font-black text-6xl flex justify-center pt-10">
+                <h2 className="font-mono text-blue-300 font-black text-5xl lg:text-6xl flex justify-center pt-10">
                     SCHEDULE
                 </h2>
             </div>
@@ -46,13 +46,13 @@ export const Requirement = () => {
              <div className="pt-2"></div>
 
             <div className="w-full flex justify-center">
-                <h2 className="text-black font-black flex justify-center text-3xl">
+                <h2 className="text-black font-black flex justify-center text-2xl">
                     応募方法/スケジュール
                 </h2>
             </div>
 
             <div className="w-full justify-center pt-8 pb-12">
-                <div className="bg-white border-2 border-black p-10 rounded-lg font-xl leading-loose font-medium text-left text-lg max-w-3xl mx-auto">
+                <div className="bg-white border-2 border-black p-10 rounded-lg font-xl leading-loose font-medium text-left text-lg max-w-[90%] lg:max-w-3xl mx-auto">
                     ■応募方法<br/>
                     WEBエントリー<br/><br/>
 

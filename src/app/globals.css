@@ -33,3 +33,26 @@ body {
 .text-outline {
   -webkit-text-stroke: 2px rgb(121, 177, 250); /* 輪郭の太さと色 */
 }
+
+.zen-kaku-gothic-new-regular {
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.font-zen {
+  font-family: 'Zen Kaku Gothic New', sans-serif;
+}
+
+.noto-sans-jp-base {
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+  text-shadow: 0 0 1px #000, 0 0 1px #000;
+}
+
+.font-noto {
+  font-family: 'Noto Sans JP', sans-serif;
+}
