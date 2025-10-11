@@ -24,8 +24,10 @@ export const Profile = () => {
 
       <div className="pt-12 flex justify-center">
         <img
-          src="/虹プロ画像/虹プロ画像/プロフィール/s.png"
-          className="flex justify-center w-100 h-auto "
+          src="/虹プロ画像/虹プロ画像/プロフィール/s.jpg"
+          alt="NiziIROぱれっと プロフィール画像"
+          className="flex justify-center w-[800px] h-auto"
+          loading="eager"
         />
       </div>
 
