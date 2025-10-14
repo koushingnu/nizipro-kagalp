@@ -52,7 +52,7 @@ export const Requirement = () => {
             </div>
 
             <div className="w-full justify-center pt-8 pb-12">
-                <div className="bg-white border-2 border-black p-10 rounded-lg font-xl leading-loose font-medium text-left text-lg max-w-[90%] lg:max-w-3xl mx-auto">
+                <div className="bg-white border-2 border-black p-10 rounded-lg font-xl leading-loose font-medium text-left text-base lg:text-lg max-w-[90%] lg:max-w-3xl mx-auto">
                     ■応募方法<br/>
                     WEBエントリー<br/><br/>
 
