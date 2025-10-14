@@ -1,9 +1,6 @@
-export const Debut = () => {
+export const Project = () => {
     return (
-        <section className="relative w-full bg-gray-200">
-            <div>
-                <h1 className= "font-mono text-blue-300 text-5xl lg:text-6xl font-black flex justify-center pt-10">DEBUT</h1>
-            </div>
+        <section className="relative w-full bg-[#21C3C9]">
 
             <div className="pt-6 lg:pt-8"></div>
 

@@ -9,13 +9,30 @@ export const About = () => {
 
             <div className="flex justify-center w-full">
                 <div className="max-w-3xl w-full px-4">
-                    <p className="text-black text-lg lg:text-2xl text-center py-4 font-black">
-                    次世代の王道メンズアイドル<br />
-                    NiziIROぱれっと(にじいろぱれっと)<br /><br />
+                    <p className="text-black text-base lg:text-lg text-left py-4 font-extrabold lg:font-bold">
+                        今を翔けるpalette promotionとビクターエンタテインメントの全国共同オーディションを開催!!<br /><br />
+                        <span className="font-sans text-lg lg:text-2xl font-black">palette promotion</span>
+                        <span className="block mt-4 lg:mt-6"></span>
+                        メジャーデビューKANSAI COLLECTION出演や豊洲PITでのワンマンライブを完遂など今もっとも勢いのあるメンズアイドルグループNiziIROぱれっとが所属する。<br /><br />
+                        <span className="font-sans text-lg lg:text-2xl font-black">ビクターエンタテインメント</span>
+                        <span className="block mt-4 lg:mt-6"></span>
+                        再来年100周年を迎える国内、国外のアーティストを抱える日本を代表するメジャーレコードレーベルの一つ。<br /><br />
+                        palette promotinの仲間として新しい時代を共に駆け抜けるスターを全国から募集します！<br /><br />
+                        ステージ経験は問わず、アイドル未経験の方もう一度アイドルとして輝きたい方も、この機会にぜひご応募お待ちしております！<br/><br/><br/>
 
-                    個性豊かに咲く花のように、<br />
-                    あなたと架ける虹のように、<br />
-                    みんなを笑顔にできますように。<br />
+                        ■ 名称：<span className="font-black text-lg">NEXT IDOL PROJECT 2025</span><br />
+                        ■ 主催：<span className="font-black text-lg">palette promotion </span><br />
+                        ■ 協力：<span className="font-black text-lg">ビクターエンタテインメント</span><br /><br />
+                        ■ 応募資格：13〜29歳までの男性。<br />
+                        ※プロダクションに所属していない方。<br />（もしくは事務所に所属している方でも事前に事務所の同意を得ている場合は可）<br /><br />
+
+
+                        【審査内容】
+                        <span className="block mt-4 lg:mt-6"></span>
+                        一次審査：書類選考<br />
+                        二次審査：歌唱審査・グループ面談<br />
+                        最終審査：グループパフォーマンス審査・個人面談
+
                     </p>                
                 </div>
             </div>
