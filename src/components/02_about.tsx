@@ -29,9 +29,9 @@ export const About = () => {
 
                         【審査内容】
                         <span className="block mt-4 lg:mt-6"></span>
-                        一次審査：書類選考<br />
+                        <span className="text-sm lg:text-lg">一次審査：書類選考<br />
                         二次審査：歌唱審査・グループ面談<br />
-                        最終審査：グループパフォーマンス審査・個人面談
+                        最終審査：グループパフォーマンス審査・個人面談</span>
 
                     </p>                
                 </div>

@@ -18,15 +18,15 @@ export const Requirement = () => {
 
                     <p className="text-center font-extrabold text-lg lg:text-2xl">応募資格：13歳～29歳までの男性</p>
 
-                    <p className="pt-6 leading-relaxed font-medium text-left text-lg">
+                    <p className="pt-6 leading-relaxed font-medium text-left text-sm lg:text-lg">
                     ※未成年者の方は保護者の同意が必要となります。<br /><br />
                     ※プロダクションに所属していない方。<br />（事務所に所属している方でも事前に事務所の同意を得ている場合は可）<br /><br />
                     ※2026年1月頃から活動準備を行える方。<br /><br />
                     </p>
                     
-                    <p className="text-left font-medium text-lg">■審査内容</p>
+                    <p className="text-left font-medium text-base lg:text-lg">■審査内容</p>
 
-                    <ul className="pt-6 leading-relaxed font-medium text-left text-lg space-y-3">
+                    <ul className="pt-6 leading-relaxed font-medium text-left text-sm lg:text-lg space-y-3">
                         <li>一次審査：書類選考</li>
                         <li>二次審査：歌唱審査・グループ面談</li>
                         <li>最終審査：グループパフォーマンス審査・個人面談</li>
@@ -52,7 +52,7 @@ export const Requirement = () => {
             </div>
 
             <div className="w-full justify-center pt-8 pb-12">
-                <div className="bg-white border-2 border-black p-10 rounded-lg font-xl leading-loose font-medium text-left text-base lg:text-lg max-w-[90%] lg:max-w-3xl mx-auto">
+                <div className="bg-white border-2 border-black p-10 rounded-lg font-xl leading-loose font-medium text-left text-sm lg:text-lg max-w-[90%] lg:max-w-3xl mx-auto">
                     ■応募方法<br/>
                     WEBエントリー<br/><br/>
 
