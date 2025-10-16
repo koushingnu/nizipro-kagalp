@@ -64,7 +64,7 @@ export const Requirement = () => {
                     rel="noopener noreferrer"
                     className="text-blue-600 underline inline-block w-auto"
                     >
-                    http://palette-promotion.com/
+                    http://palette-promotion.com
                     </a><br/><br/>
                     １次審査：書類審査<br/>
                     ⇩<br/>
@@ -83,7 +83,7 @@ export const Requirement = () => {
             </div>
 
             <div className= "pt-12 pb-10 flex justify-center">
-                <a href ="https://form.run/@nizipaleaudition2025"
+                <a href ="https://form.run/embed/@nextidolproject2025?embed=direct"
                 className="bg-gradient-to-r from-sky-300 to-green-300 shadow-2xl shadow-sky-500/50 text-white font-black text-3xl px-6 py-5 rounded-full text-center w-fit hover:scale-110 transform transition duration-200 hover:opacity-80 transition">
                     ENTRY NOW
                 </a>
