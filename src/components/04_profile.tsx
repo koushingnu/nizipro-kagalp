@@ -17,7 +17,7 @@ export const Profile = () => {
 
       <div className="flex justify-center w-full pt-12">
         <img
-          src="/虹プロ画像/虹プロ画像/プロフィール/アー写.jpg"
+          src="/虹プロ画像/虹プロ画像/ヘッダー/artists.webp"
           className="flex justify-center w-250 h-auto "
         />
       </div>
