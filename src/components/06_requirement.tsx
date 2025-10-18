@@ -59,12 +59,12 @@ export const Requirement = () => {
                     ■応募期間<br/>
                     2025年10月15日～2025年11月15日まで<br/>
                     <a
-                    href="http://palette-promotion.com/"
+                    href="https://form.run/embed/@nextidolproject2025?embed=direct"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-blue-600 underline inline-block w-auto"
                     >
-                    http://palette-promotion.com
+                    https://form.run/@nextidolproject2025
                     </a><br/><br/>
                     １次審査：書類審査<br/>
                     ⇩<br/>

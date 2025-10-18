@@ -15,15 +15,25 @@ export const Last = () => {
                     ・応募者の個人情報は事務局で厳密に管理の上、本オーディションに関わる者以外への開示は一切致しません。<br /><br />
                     ・本オーディションに伴う会場への移動などに伴う交通費・宿泊費などは負担致しかねますので、あらかじめご了承ください。<br /><br />
                     ・審査時の内容などをSNS等で外部に公表することを一切禁じます。<br /><br />
-                        <p className="text-center">主催：（株）palette promotion<br/>協力：（株）ビクターエンタテインメント</p>
+                        <p className="text-center">主催：（株）palette promotion<br/>協力：ビクターエンタテインメント（株）</p>
 
-                        <div className="flex justify-center items-center w-full mt-6">
+                        <div className="flex justify-center items-center w-full mt-4">
+                          <img 
+                            src="/虹プロ画像/虹プロ画像/ヘッダー/Logo_palette.jpg" 
+                            alt="palette promotion"
+                            className="w-24 h-auto"
+                          />
+                        </div>
+
+
+                        <div className="flex justify-center items-center w-full mt-3">
                           <img 
                             src="/虹プロ画像/虹プロ画像/ヘッダー/Asset 2@4x.png" 
                             alt="Victor Entertainment"
                             className="w-40 h-auto"
                           />
                         </div>
+
                 </div>
             </div>
 
